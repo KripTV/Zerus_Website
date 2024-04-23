@@ -9,9 +9,6 @@
         font-family: Arial, Helvetica, sans-serif;
         color: whitesmoke;
     }
-body{
-        background-color: rgb(10, 109, 10);
-    }
 .text {
         font-size: 70px;
         font-family: Arial, Helvetica, sans-serif;
@@ -35,3 +32,34 @@ img {
         border-radius: 5px;
         transition: background-color 0.3s ease, transform 0.3s ease; 
         }
+    
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        color: white;
+        font-family: "Segoe UI", sans-serif;
+        font-weight: 100;
+         font-size: 32px;
+          }
+          
+body {
+        background:
+        linear-gradient(-45deg, #10864d, #052602, #008000, #00572d);
+        background-size: 400% 400%;
+        height: 100vh;
+        animation: gradient 15s ease infinite;
+    }
+          
+@keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+            }
+        50% {
+            background-position: 100% 50%;
+            }
+        100% {
+            background-position: 0% 50%;
+            }
+          }
