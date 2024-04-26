@@ -1,4 +1,24 @@
 <html lang="ru">
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded');
+        }
+    </script>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+      </script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +30,9 @@
 <body style="font-family:Arial">
 <style>
 @keyframes animated-button {
-0% {background-color: rgb(0, 200, 98);}
-50% {background-color: rgb(0, 92, 20);}
-100% {background-color: rgb(0, 200, 98);}
+0% {background-color: rgb(0, 90, 48);}
+50% {background-color: rgb(0, 150, 20);}
+100% {background-color: rgb(0, 90, 48);}
 }
 
 /* Стилизация кнопки */
@@ -33,7 +53,7 @@ transform: scale(1.1); /* Увеличение */
 }
 </style>
 <body>
-<!-- Кнопка с анимацией -->
-<div style="text-align:center"> </p><button class="animated-button" type="button" onclick="window.open('https://clck.ru/38niRp', '_blank');" >Скачать</button>
+    <div style="text-align:center"><a href="resource/dow/Crazy_Dave_IN-GAME.flac" download=""><button style="text-align:center" class="animated-button" type="button"" >Скачать</button></a>
+    <p style="text-align: left;" class="version_website"><a href=" https://kriptv.github.io/Zerus_Website/dow_log_1.html">Для сотрудников</a></p>
 </body>
 </html>

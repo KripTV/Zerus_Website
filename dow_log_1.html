@@ -1,0 +1,37 @@
+<html lang="ru">
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+      </div>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded');
+        }
+    </script>
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+      </script>
+        <title>Zerus</title>
+        <link rel="stylesheet" href="dop.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <h1 style="text-align: center" class="gtext">Zerus+</h1>
+</head>
+<body>
+  <form class="box">
+    <h1 style="text-align: center" class="gtext">Вход</h1>
+    <input class="but" type="text" name="" placeholder="Имя пользователя">
+    <input class="but" type="password" name="" placeholder="Пароль">
+    <input class="button" type="submit" name="" value="Войти">
+  </form>
+</body>
+</html>
