@@ -9,7 +9,6 @@ html, body{
   margin: 0;
   padding: 0;
   height: 100%;
-
 }
 
 .center {
@@ -38,19 +37,23 @@ header {
 .header_logotip, .header_ponos{
     display:inline-block;
     padding: 25px;
-    font-size: 30px;
+    font-size: 35px;
     box-sizing: border-box;
+    
   }
   
 .header_logotip {
     width: 30%;
-    background-color: #556854d0;
+    background-color: #4c5e4b;
     text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
 .header_ponos {
     width: 70%;
     background-color: #556854;
+    text-align: center;
   }
 .container1{
   width: 90%;
@@ -70,30 +73,45 @@ header {
 }
 /* анимация кнопок */
 .animated-button:hover {
-      transform: scale(1.1); /* Увеличение */
-      }
-  
+  transform: scale(1.1); /* Увеличение */
+  }
+
 .animated-button {
-      padding: 20px 50px;
-      color: rgb(0, 0, 0);
-      background-color: rgb(255, 255, 255);
-      border: 20px solid black;
-      font-size: 90px;
-      cursor: pointer;
-      border-radius: 5px;
-      transition: background-color 0.3s ease, transform 0.3s ease; 
-      }
-  
+  padding: 20px 50px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 20px solid black;
+  font-size: 90px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+
 .container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-      color: white;
-      font-family: "Segoe UI", sans-serif;
-      font-weight: 100;
-       font-size: 32px;
-      }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 100;
+   font-size: 32px;
+  }
+
+
+/* Новая кнопка */
+.Gbutton:hover {
+  transform: scale(1.1); /* Увеличение */
+  }
+.Gbutton {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
 
 /* анимированный задний фон */
 body {
@@ -274,7 +292,24 @@ transition: 0.5s;
           background: transparent;
           box-shadow: 1381px 746px #FFF , 1397px 994px #FFF , 136px 1233px #FFF , 1846px 129px #FFF , 61px 1812px #FFF , 1216px 795px #FFF , 713px 607px #FFF , 1984px 1025px #FFF , 334px 1475px #FFF , 1423px 734px #FFF , 286px 336px #FFF , 1415px 1528px #FFF , 333px 892px #FFF , 684px 820px #FFF , 964px 1454px #FFF , 823px 127px #FFF , 424px 979px #FFF , 197px 1211px #FFF , 1692px 370px #FFF , 503px 1975px #FFF , 894px 1673px #FFF , 461px 1491px #FFF , 1253px 1367px #FFF , 1452px 1682px #FFF , 1219px 1715px #FFF , 1990px 674px #FFF , 1874px 1588px #FFF , 1351px 1859px #FFF , 358px 375px #FFF , 763px 1522px #FFF , 254px 1777px #FFF , 608px 1538px #FFF , 320px 1393px #FFF , 1860px 1278px #FFF , 248px 596px #FFF , 753px 1066px #FFF , 1511px 723px #FFF , 759px 1906px #FFF , 243px 99px #FFF , 316px 129px #FFF , 59px 1525px #FFF , 1020px 1711px #FFF , 320px 1056px #FFF , 727px 1189px #FFF , 220px 507px #FFF , 822px 1443px #FFF , 617px 187px #FFF , 542px 1257px #FFF , 767px 1337px #FFF , 197px 431px #FFF , 824px 927px #FFF , 590px 1px #FFF , 1504px 1710px #FFF , 279px 182px #FFF , 326px 109px #FFF , 782px 1538px #FFF , 1702px 1086px #FFF , 1330px 1960px #FFF , 1054px 459px #FFF , 724px 469px #FFF , 1408px 1219px #FFF , 685px 151px #FFF , 717px 1622px #FFF , 1493px 912px #FFF , 870px 1697px #FFF , 698px 1519px #FFF , 998px 1751px #FFF , 65px 1229px #FFF , 1116px 393px #FFF , 995px 206px #FFF , 1643px 932px #FFF , 141px 181px #FFF , 1818px 983px #FFF , 1502px 37px #FFF , 964px 772px #FFF , 1865px 1221px #FFF , 1295px 1969px #FFF , 1267px 1513px #FFF , 1022px 864px #FFF , 1904px 1654px #FFF , 1822px 1488px #FFF , 91px 441px #FFF , 253px 1288px #FFF , 676px 1863px #FFF , 1060px 1103px #FFF , 916px 246px #FFF , 1917px 1930px #FFF , 841px 14px #FFF , 789px 1058px #FFF , 1545px 994px #FFF , 1656px 1773px #FFF , 311px 1618px #FFF , 778px 104px #FFF , 1091px 634px #FFF , 622px 636px #FFF , 616px 454px #FFF , 1826px 1592px #FFF , 1050px 480px #FFF , 1264px 195px #FFF , 1803px 1944px #FFF;
         }
-      
+        #title {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          color: #FFF;
+          text-align: center;
+          font-family: "lato", sans-serif;
+          font-weight: 300;
+          font-size: 50px;
+          letter-spacing: 10px;
+          margin-top: -60px;
+          padding-left: 10px;
+        }
+        #title span {
+          background: -webkit-linear-gradient(white, #38495a);
+          -webkit-text-fill-color: transparent;
+        }
         
         @keyframes animStar {
           from {
