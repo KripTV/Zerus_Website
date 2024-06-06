@@ -17,4 +17,3 @@ if (empty($login) || empty($password)) {
         echo"нет такого пользователя";
     }
 }
->
