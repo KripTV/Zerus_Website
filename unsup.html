@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+               
 <meta name="theme-color" content="#004e17">
 <link rel="apple-touch-icon" sizes="180x180" href="resource/img/ico/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="48x48" href="resource/img/ico/zerus.ico">
@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-title" content="Zerus Website">
 <meta name="application-name" content="Zerus Website">
 <meta name="msapplication-TileColor" content="#004e17">
-
+  
 <body>
         <script src="yandex-translate/yatranslate.js"></script>
         <link rel="stylesheet" href="yandex-translate/yatranslate.css">    
@@ -59,15 +59,15 @@
                 <a class="lang__link lang__link_sub" data-ya-lang="by">
                     <img class="lang__img" src="resource/img/flag/lang__by.png" alt="by">
                 </a>
+                <a class="lang__link lang__link_sub" data-ya-lang="ua">
+                    <img class="lang__img" src="resource/img/flag/lang__ua.png" alt="ua">
+                </a>
             </div>
         </div>
 </body>
 
-<body>
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
-</body>
+    <link rel="stylesheet" href="dop.css">
+    <title>Zerus</title>
 
     <div class="preloader">
         <div class="preloader__row">
@@ -90,69 +90,72 @@
         }
       </script>
 
-        <div class="wrapper">
-            <header>
-                <div class="contanier1">
-                    <div class="header_logotip" style="font-size: 35.5px;"> 
-                        <b>ZERUS</b>
-                    </div>
-                    <!-- Прав. Полоса -->
-                    <div class="header_ponos">
-                        <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/index.html';">Главная</button>
-                        |
-                        <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/videos.html';"> Видео </button> 
-                        |
-                        <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/screenshots.html';"> Скриншоты </button>
-                        |
-                        <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/soglashenie.html';"> Соглашения </button>
-                        |
-                        <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/info.html';">Мин. Хар.</button>
-                        |
-                        <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/info_1.html';">Об Основателях</button>
-                </div>
-            </div>
-            </header>
-          </div>
-          
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zerus</title>
-    <link rel="stylesheet" href="dop.css">
-    <img src="resource/img/paint/ava_2.png" alt="Zerus_Avatar" class="gimg" width="35%">
-    <h1 style="text-align: center" class="gtext">ZERUS</h1>
+  <div class="wrapper">
+    <header>
+        <div class="contanier1">
+            <div class="header_logotip" style="font-size: 35.5px;"> 
+                <b>ZERUS</b>
+            </div>
+            <!-- Прав. Полоса -->
+            <div class="header_ponos">
+                <a href="resource/dow/Crazy_Dave_IN-GAME.flac" download=""><button class="Gbutton" type="button" onclick="window.open('https://kriptv.github.io/Zerus_Website/dow_ground.html', '_blank');" >Скачать</button></a>
+                |
+                <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/videos.html';"> Видео </button> 
+                |
+                <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/screenshots.html';"> Скриншоты </button>
+                |
+                <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/soglashenie.html';"> Соглашения </button>
+                |
+                <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/info.html';">Мин. Хар.</button>
+                |
+                <button type="button" class="Gbutton" onclick="window.location.href='https://kriptv.github.io/Zerus_Website/info_1.html';">Об Основателях</button>
+        </div>
+    </div>
+    </header>
+  </div>
 </head>
-<body style="font-family:Arial">
+
+  <body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+  </body>
+
+<body class="unsup">
+    <section class="contacts">
+       <h2 class="text" style="text-align: center; font-size: 80px;">Обратная связь</h2>
+
+       <div class="text">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="718e4c0e-b0b4-4dcc-b13b-78a0cb33c7e7">
+            <span>Ваше имя</span>
+            <input type="text" name="name" id="" class="box" required placeholder="Введите ваше имя..." autocomplete="off">
+
+            <span>Ваш email</span>
+            <input type="email" name="email" id="" class="box" required placeholder="Введите ваш email..." autocomplete="off">
+
+            <span>Ваше обращение</span>
+            <input type="text" name="mlog" id="" class="box" required placeholder="Введите ваше обращение..." autocomplete="off">
+
+            <span>Выберите тему</span>
+            <select name="topic" id="" class="box" required>
+                <option value="" disabled selected></option>
+                <option value="Error">Ошибка</option>
+                <option value="Question">Вопрос</option>
+                <option value="Appeal">Обращение</option>
+            </select>
+            
+            <input type="submit" value="Отправить..." class="btn" name="send">
+            
+        </form>
+       </div>
+    </section>
 <style>
-@keyframes animated-button {
-0% {background-color: rgb(0, 90, 48);}
-50% {background-color: rgb(0, 150, 20);}
-100% {background-color: rgb(0, 90, 48);}
-}
-
-/* Стилизация кнопки */
-.animated-button {
-padding: 40px 100px;
-color: white;
-border: 20px solid black;
-font-size: 100px;
-cursor: pointer;
-border-radius: 5px;
-transition: background-color 0.3s ease, transform 0.3s ease; 
-animation: animated-button 5s infinite linear; /* Анимация */
-}
-
-/* Эффект при наведении */
-.animated-button:hover {
-transform: scale(1.1); /* Увеличение */
-}
+    .text{
+        font-size: 50px;
+    }
 </style>
-<body>
-    <div style="text-align:center"><a href="resource/dow/Crazy_Dave_IN-GAME.flac" download=""><button style="text-align:center" class="animated-button" type="button"" >Скачать</button></a>
-    
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <div class="g-recaptcha" data-sitekey="6Lf9WukpAAAAAGUC1cTAJsTPV8AR9fjr8euSN6je" style="text-align: center;"></div> 
-    
-    <a href="https://kriptv.github.io/Zerus_Website/unsup.html" style="text-align: left;">Обратная связь</a>
+
 </body>
 </html>
