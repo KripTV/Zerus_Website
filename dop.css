@@ -163,10 +163,10 @@ header {
           position: relative;
           top: 50%;
           left: 50%;
-          width: 70px;
-          height: 70px;
-          margin-top: -35px;
-          margin-left: -35px;
+          width: 150px;
+          height: 150px;
+          margin-top: -40px;
+          margin-left: -40px;
           text-align: center;
           animation: preloader-rotate 2s infinite linear;
         }
@@ -175,17 +175,10 @@ header {
           position: absolute;
           display: inline-block;
           top: 0;
-          background-color: #556854;
           border-radius: 100%;
-          width: 35px;
-          height: 35px;
+          width: 40px;
+          height: 40px;
           animation: preloader-bounce 2s infinite ease-in-out;
-        }
-        
-        .preloader__item:last-child {
-          top: auto;
-          bottom: 0;
-          animation-delay: -1s;
         }
         
         @keyframes preloader-rotate {
@@ -204,6 +197,9 @@ header {
           50% {
             transform: scale(1);
           }
+          0% {background-color: #052602;}
+          50% {background-color: white;}
+          100% {background-color: #052602;}
         }
         
         .loaded_hiding .preloader {
