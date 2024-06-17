@@ -11,6 +11,10 @@ html, body{
   height: 100%;
 }
 
+a {
+  color: lightgreen;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -224,3 +228,39 @@ header {
           display: none;
         }
         
+/* Слайдер со скриншотами */
+.banner-container {
+	overflow: hidden;
+	position: relative;
+}
+.banner-container ul {
+	padding: 0;
+	display: flex;
+	width: calc(100% + 60px);
+	margin-left: -30px;
+}
+.banner-container li {
+	clip-path: polygon(60px 0%, 100% 0%, calc(100% - 60px) 100%, 0% 100%);	
+	position: relative;
+	margin: 0 -35px;
+	width: calc(100% / 3 + 70px);  /* 3 - кол-во фотографий */
+	transition: width 0.5s ease-in;
+}
+.banner-container li a {
+	display: block;
+	background: #000000a1;	
+}
+.banner-container li a img {
+	max-width: none;
+	height: 750px;
+	width: 100%;
+	object-fit: cover;
+	opacity: 0.6;
+	transition: opacity 0.7s ease-in;
+}
+.banner-container ul li:hover {
+	width: 100%;
+}	
+.banner-container ul li:hover a img {
+	opacity: 1;
+}
