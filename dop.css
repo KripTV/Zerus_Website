@@ -15,6 +15,11 @@ a {
   color: lightgreen;
 }
 
+p::selection {
+  color: #fff;
+  background-color: #3f4d3d; 
+}
+
 /* ползунок */
 
 body::-webkit-scrollbar {
