@@ -1,0 +1,115 @@
+.background {
+    /*
+    position: absolute;
+    height: 100%;
+    width: 100%;
+*/
+    background: url(https://sun9-77.userapi.com/impf/c850524/v850524759/190c69/ZiYKVEqjicI.jpg?size=2560x1702&quality=96&sign=e18939d3e9e8ac9e1eb29b98f10d9cb7&c_uniq_tag=Q7FoZDbmfUzDzTg5Ux8TPHj0hUAIb5vgZCoG_ovVduo&type=album);
+    background-repeat: no-repeat;
+    background-color: #000000dc;
+/*  filter: blur(3px); */
+}
+
+.text-h {
+    text-align: center;
+    font-size: 200%;
+    font-family: 'bulatov';
+    color: white;
+    cursor: default;
+}
+
+.zerus-text-h {
+    font-size: 500%;
+    text-align: center;
+    font-family: "bulatov", Arial;
+    color: white;
+    text-shadow: 0 -0.1rem 0.4rem whitesmoke;
+    cursor:default;
+}
+
+.text-h2{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'bulatov';
+}
+
+.text-base{
+    color: #fff;
+    font-size:200%;
+    text-align: center;
+    font-family: "bulatov";
+}
+
+.text-inf-g{
+    font-size: 200%;
+    cursor: default;
+}
+/* Кнопка скачать */
+
+.glow-on-hover {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 320px;
+    height: 80px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: black;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 400%;
+/* ПОКА НЕ РАБОТАЕТ! */
+    cursor: no-drop;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, white, blue, red, white);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0; 
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* Конец кнопки */

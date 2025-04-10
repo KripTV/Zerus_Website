@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'efnzepsm';
+	src: local('efnzepsm'), url('./resource/fonts/efnzepsm.woff') format('woff');
+} 
+@font-face {
+	font-family: "brokenled";
+	src: url('./resource/fonts/ofont.ru_BrokenLed.ttf') format('truetype');
+}
+@font-face {
+	font-family: "bulatov";
+	src: url('./resource/fonts/BulatovSPDemo.ttf') format('truetype');
+}
+
+.bulatov_font{
+	font-family: 'bulatov' !important;
+}
+.brokenled_font {
+	font-family: 'brokenled' !important;
+}
+.fontsforweb_fontid_80895 {
+	font-family: 'efnzepsm' !important;
+}
