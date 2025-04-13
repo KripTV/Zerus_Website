@@ -122,3 +122,38 @@
 }
 
 /* Конец кнопки */
+
+/* Начало 2-й кнопки */
+.button2{
+    cursor: no-drop;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .button2{
+    width: 200px;
+    height: 70px;
+    background: #303030;
+    border: none;
+    border-bottom: 6px solid #000000;
+    padding: 16px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0px;
+    transition: all 0.1s;
+    outline: none;
+  }
+  .button2:hover{
+    margin-top: 2px;
+    border-bottom-width: 3px;
+/*  cursor: pointer; */
+  }
+  .button2:active{
+    margin-top: 5px;
+    border-bottom-width: 0px;
+  }
+/* конец 2-й кнопки */
